@@ -3808,8 +3808,8 @@ textarea.form-input {
 */
 .footer-classic {
 	padding: 30px 0;
-	background: #404044;
-	color: #aab2b9;
+	background: #eaeaff;
+	color: #222;
 	font-size: 16px;
 }
 
@@ -3832,15 +3832,15 @@ textarea.form-input {
 
 .footer-classic-title {
 	font-family: "Poppins", sans-serif;
-	color: #d7dde5;
+	color: #222;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 	font-size: 14px;
 	letter-spacing: .15em;
 }
 
-.footer-classic-nav-list a {
-	color: inherit;
+.footer-classic-nav-list a, .footer-classic	a, .footer-classic a:focus,.footer-classic a:active {
+color: #222 !important;
 }
 
 .footer-classic-nav-list a:hover {
@@ -5243,13 +5243,15 @@ html [class*='section-'].section-bottom-0 {
 .bg-gray-700 {
 	background-color: #2c343b;
 }
-
+a{
+	color: #222 !important;
+}
 .bg-gray-700:not([style*="background-"]) + .bg-gray-700:not([style*="background-"]) {
 	padding-top: 0;
 }
 
 .bg-gray-dark {
-	background-color: #404044;
+	background-color: #eaeaff;
 }
 
 .bg-gray-dark:not([style*="background-"]) + .bg-gray-dark:not([style*="background-"]) {
@@ -6009,6 +6011,8 @@ html.tablet .ui-to-top {
 
 .rd-navbar-main-outer {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(255,255,255, 0.8);
+
 }
 
 .rd-navbar-main-outer .rd-search .form-wrap .form-label {
